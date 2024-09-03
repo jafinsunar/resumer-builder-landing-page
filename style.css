@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+* {
+    margin: auto;
+    padding: auto;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    transition: ease-in-out 0.3s all;
+}
+header ul li a:hover {
+color: black;
+font-weight: bold;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+header .button button {
+padding: 5px;
+width: 100px;
+margin: 5px;
+}
+.signup {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.login {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    /* background-color: rgb(146, 227, 227); */
+    transition: ease-in-out 0.2s all;
+}
+
+.login:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.signup:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.2s all;
+}
+
+
+header {
+    background-color: rgb(202, 233, 233);
+    padding: 10px;
+}
+
+
+section {
+    display: flex;
+    margin-top: 50px;
+
+    
+}
+
+.hero .heropic img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.hero .title h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(9, 199, 199);
+    transition: ease-in-out 0.3s all;
+
+
+}
+
+button:hover {
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+
+.discover .discimg img {
+    height: 400px;
+    width: 600px;
+}
+
+.discover .text2 h1 {
+    font-size: 50px;
+
+}
+
+
+.features .detail-pic img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.features {
+    display: flex;
+   gap: 10px;
+   margin: 20px;
+}
+
+.features .details {
+    margin-left: 50px;
+}
+
+.features .details  li {
+    /* list-style-type: none; */
+    margin-bottom: 50px;
+}
+
+
+
+
+.templates {
+    display: flex;
+    flex-direction: column;
+}
+
+.templates .temp img {
+    height: 400px;
+    width: 300px;
+    object-fit:cover;
+    margin-bottom: 20px;
+
+}
+
+.templates .tem {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.templates .tem .temp{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s all;
+}
+
+.templates .tem .temp:hover {
+    border: none;
+    box-shadow: 5px 10px 20px rgb(79, 79, 79);
+}
+
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback .feedback-card .card {
+    margin: 50px;
+
+}
+.feedback .feedback-card {
+    display: flex;
+    padding: 20px;
+}
+
+.form {
+
+    display: flex;
+
+
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(79, 79, 79, 0.536);
+
+}
+
+.form form label {
+    margin-bottom: 10px;
+}
+.form form input {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    
+}
+
+footer .link ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+footer .link ul li a {
+    text-decoration: none;
+    color: rgb(49, 191, 251);
+}
+
+footer .link ul li a:hover {
+    text-decoration:underline;
+}
